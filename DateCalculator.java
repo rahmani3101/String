@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class DateCalculator
+    
 {
     public static boolean isLeapYear(int y) {
         boolean ret = false;
