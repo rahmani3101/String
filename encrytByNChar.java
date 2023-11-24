@@ -19,7 +19,7 @@ class Encrypt
             else if((ch>='A' && ch<='Z'-n) || (ch>='a' && ch<='z'-n ))
                 ch=(char)(ch+n);
             else if((ch>='Z'-n+1 && ch<='Z')    || (ch>='z'-n+1 && ch<='z')  )
-                ch=(char)(ch-23);
+                ch=(char)(ch-(26-n));
             key+=ch;
         }
         System.out.println(key);
